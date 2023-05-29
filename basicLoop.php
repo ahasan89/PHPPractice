@@ -11,12 +11,12 @@ if($i%2!=0){
 
 $sumOdd+=$i;
 
-
+$numbers++;
 
 echo "Series of Odd number between 1 to 50=".$i." <br>";
 
 
-$numbers=[$i];
+
 
 }elseif($i%2==0){
 
@@ -29,7 +29,7 @@ echo "Series of Even number between 1 to 50=".$i." <br>";
 
 }
 
-echo "Numbers of odd numbers in Series is =".count($numbers);
+echo "Numbers of odd numbers in Series is =".$numbers;
 echo "<br>Sum of Series of Odd number between 1 to 50=".$sumOdd;
 
 echo "<br>Sum of Series of Even number between 1 to 50=".$sumEven;
